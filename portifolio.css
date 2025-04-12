@@ -1,40 +1,41 @@
+body {
+    height: 100vh;
+    background-color: black;
+    color: aliceblue;
+}
 
-        body {
-            background-color: black;
-            color: aliceblue;
-        }
+.titulo {
+    font-family: Calibri, sans-serif;
+}
 
-        header {
-            text-align: center;
-        }
+.titulo2 {
+    color: aqua;
+}
 
-        h1 {
-            font-family: Calibri;
-        }
+#principal {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-around;
+    width: 1138px;
+}
 
-        .aaaa {
-            color: aqua;
-        }
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+}
 
-        .btn {
-            font-size: 25px;
-            border: none;
-            background-color: aqua;
-            color: black;
-            padding: 30px 60px;
-            margin-right: 10px;
-            margin-bottom: 20px;
-            border-radius: 25px;
-            cursor: pointer;
-        }
+.btn {
+    font-size: 25px;
+    border: none;    background-color: aqua;
+    color: black;
+    padding: 30px 60px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
 
-        .imagem {
-            border-radius: 20px;
-        }
-
-        .center {
-            text-align: center;
-        }
-        .conversa {
-            font-size: 10px;
-        }
+.imagem {
+    border-radius: 20px;
+}
