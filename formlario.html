@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="stylesheet" href="formulario.js">
+    <title>Formulário de Contato</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td class="tab_form">
+                <form action="" method="post" onsubmit="javascript_qualquer">
+                    <label for="nome">Escreva seu nome completo</label>
+                    <input type="text" name="nome" id="nome">
+                    <label for="email">Email</label>
+                    
+                    <input type="text" name="email" id="email">
+                    <label for="fone">Fone</label>
+                    <input type="text" name="fone" id="fone">
+                    <label for="mensagem">Mensnsagem</label>
+                    <input type="text" name="mensagem" id="mensagem">
+                    <label for="idade">Idade</label>
+                    <input type="numeric" name="idade" id="idade">
+                    <label for="tp_contato">Tipo de contato</label>
+                    <input type="text" name="tp_contato" id="tp_contato">
+                    <button type="submit" class="botao">Enviar</button>
+                    <button type="reset" class="botao">Limpar</button>
+                </form>
+            </td>
+            <td class="tab_grid">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>nome</th>
+                            <th>email</th>
+                            <th>fone</th>
+                            <th>mensagem</th>
+                            <th>idade</th>
+                            <th>tipo contato</th>
+                            <th>edit/del</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="campo"></td>
+                            <td class="campo"></td>
+                            <td class="campo"></td>
+                            <td class="campo"></td>
+                            <td class="campo"></td>
+                            <td class="campo"></td>
+                            <td class="edit_del">
+                                <input type="" name="edicao" id="edicao">
+                                <input type="" name="delete" id="delete">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script>
+        var aviso = 'Você esta na pagina de contato'
+        alert(aviso)
+    </script>
+</body>
+
+</html>
